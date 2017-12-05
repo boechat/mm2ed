@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## [Estudo] Sistemas Operacionais
 
-You can use the [editor on GitHub](https://github.com/boechat/estudo-si/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Seja bem vindo! Esta página irá auxiliar os estudantes interessados em aprimorar seu conhecimento e exercitar para o curso de Sistemas Operacionais. 
+Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para deixar este projeto o mais completo possível.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Sumário
+
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+1. Processos
+2. Threads
+3. Exercicios de Processos & Threads
+4. Escalonamento
+5. Gerência de memória
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/boechat/estudo-si/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
