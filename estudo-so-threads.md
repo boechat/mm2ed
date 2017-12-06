@@ -13,11 +13,7 @@ Para ter concorrência é preciso o uso de mais de um processo em conjunto para 
 Ambiente onde um processo suporta mais de um fluxo de execução em seu espaço de endereçamento.  O fluxo de execução está associado a uma função e às funções por ela chamadas,  Ao designar que a criação de um novo fluxo de execução a uma função, o programador cria uma nova thread.
 A criação, a eliminação e a troca de contexto são mais simples e rápidas do que se fossem processos Threads compartilham o processador da mesma forma que os processos. As  Threads passam pelos mesmos estados que os processos.
 
-```markdown
-
-IMAGEM DAS THREADS 
-
-```
+![Threads](https://boechat.github.io/estudo-si/so005.png)
 
 Assim como processos possuem PCBs, threads possuem TCBs. No TCB são armazenados:
 ```markdown
@@ -49,9 +45,8 @@ Os problemas do modo híbrido são causados porque o kernel não sabe da existê
 	### 1. Conceito:
 	Aplicações concorrentes são aquelas em que multiplos processos ou threads executam cooperativamente em busca de um resultado comum. Essas aplicações compartilham recursos do S.O.
 Para que haja o compartilhamento de recursos, os processos de uma aplicação concorrente tem que estar sincronizados através de MECANISMOS DE SINCRONIZAÇÃO oferecidos pelo S.O.
-```markdown
-IMAGEM DE PROCESSOS E THREADS 
-```
+
+![Processos e Threads](https://boechat.github.io/estudo-si/so006.png)
 
 Cabe ao programador dizer ao S.O. onde começará a concorrência dos processos e onde haverá sincronização. Uma das notações utilizadas é através de comandos FORK e JOIN, usado por sistemas UNIX para criar subprocessos.
 
@@ -72,9 +67,8 @@ O processo de escolha de processos para acessar a região crítica pode fazer co
 
 ### 4. Exclusão Mútua por Software
 
- ```markdown
-IMAGEM DE EXCLUSAO MUTUA POR SOFTWARE 
-```
+![E.M. por Software](https://boechat.github.io/estudo-si/so007.png)
+
 Este algoritmo apresenta a deficiência de permanecer em **BUSY WAIT** (espera ocupada). Ou seja, fica em constante estado de checagem da entrada do processo na região crítica (em loop), consumindo tempo do processador desnecessariamente. Esse problema é resolvido com o uso de **SEMÁFOROS ou MONITORES**.
 
 ### 5. Sincronização Condicional 
