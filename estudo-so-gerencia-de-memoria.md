@@ -1,4 +1,7 @@
-## GERÊNCIA DE MEMÓRIA
+## [SISTEMAS DE INFORMAÇÃO](https://boechat.github.io/estudo-si)
+## [SISTEMAS OPERACIONAIS](https://boechat.github.io/estudo-si/estudo-so)
+
+# GERÊNCIA DE MEMÓRIA
 
 **Definição:** É a parte do SO responsável por manipular funções relativas à memória.
 **Função:**  Maximizar o número de processos, e seus dados, em memória para minimizar o número de operações de E/S ; Implementar Memória Virtual &  Garantir a segurança dos espaços de endereçamento.
