@@ -9,14 +9,12 @@ Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para 
 
 ### Sumário
 
-[1. Processos](https://boechat.github.io/estudo-si/estudo-so-processo)
+[1. Revisão Vetores](https://boechat.github.io/estudo-si/estudo-so-processo)
 
-[2. Threads](https://boechat.github.io/estudo-si/estudo-so-threads)
+[2. Funções Recursivas](https://boechat.github.io/estudo-si/estudo-so-threads)
 
-[3. Exercicios de Processos & Threads](https://boechat.github.io/estudo-si/estudo-so-exercicio-01)
+[3. Métodos de Busca, Alocação Dinâmica, Vetores e Matrizes Dinâmicas](https://boechat.github.io/estudo-si/estudo-so-exercicio-01)
 
-[4. Escalonamento](https://boechat.github.io/estudo-si/estudo-so-escalonamento)
-
-[5. Gerência de memória](https://boechat.github.io/estudo-si/estudo-so-gerencia-de-memoria)
+[4. Lista Encadeada](https://boechat.github.io/estudo-si/estudo-so-escalonamento)
 
 
