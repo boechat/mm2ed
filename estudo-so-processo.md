@@ -35,10 +35,8 @@ PSW
 ```
 Quando o processo está em execução, esses valores estão no **hardware**;  Quando o processo é substituído, os valores são copiados para uma **estrutura interna do SO.**
 
+![Contexto Hardware](https://boechat.github.io/estudo-si/so001.png)
 
-```markdown
-IMAGEM PROCESSO CONTEXTO DE HARDWARE!!!
-```
 ### 5. Contexto de Software
 É composto pelos limites e características dos recursos que podem ser alocados pelo processo
 ```markdown
@@ -69,9 +67,7 @@ Cada processo possui seu espaço de endereçamento . Deve ser protegido dos outr
 **DEFINIÇÃO:** A estrutura de dados interna ao SO que implementa um processo é o bloco de controle do processo (process control block – PCB).
 **PARA QUE SERVE?**  É nele que estão armazenadas as informações do contexto de hardware, do contexto de software e do espaço de endereçamento
 
-```markdown
-IMAGEM DO PCB!
-```
+![PCB](https://boechat.github.io/estudo-si/so002.png)
 
 ### 7.ESTADOS DO PROCESSO
 Em sistemas multiprogramáveis os processos não têm exclusividade na utilização da CPU.  Os processos alternam de estado, dependo de eventos gerados pelo SO ou pelo próprio processo .
@@ -99,10 +95,7 @@ Este mecanismo de escolha é chamado escalonamento  Os processos prontos aguarda
 ```markdown
 Também chamado de bloqueado (blocked); 
 ```
-
-```markdown
-IMAGEM AQUI DAS LISTAS DE PROCESSOS!
-```
+![Lista de Processos](https://boechat.github.io/estudo-si/so003.png)
 
 ### MUDANÇAS DE ESTADOS DO PROCESSO
 #### .Ready ⇒ Running (a)  
@@ -127,9 +120,8 @@ Terminado (exit)  Quando o processo não tem mais um programa executando, mas o 
 Um processo vai para o estado exit quando o programa terminou naturalmente , outro processo o eliminou ou ocorre ausência de recursos necessários.
 ```
 
-```markdown
-IMAGEM DOS ESTADOS E SEUS RELACIONAMENTOS
-```
+![Estados e Relacionamentos](https://boechat.github.io/estudo-si/so004.png)
+
 ### 9. CPU BOUND/ I/O BOUND
 
 Pode-se classificar os processos em:  
