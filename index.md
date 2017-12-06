@@ -21,9 +21,6 @@ Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para 
 9. Análise de Sistemas 1
 10. Análise de Sistemas 2
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 
