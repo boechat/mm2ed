@@ -7,14 +7,14 @@ Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para 
 
 ### Sumário
 
-[1. Processos](https://github.com/boechat/estudo-si/estudo-so-processo.md)
+[1. Processos](https://boechat.github.io/estudo-si/estudo-so-processo)
 
-[2. Threads](https://github.com/boechat/estudo-si/estudo-so-threads.md)
+[2. Threads](https://boechat.github.io/estudo-si/estudo-so-threads)
 
-[3. Exercicios de Processos & Threads](https://github.com/boechat/estudo-si/estudo-so-exercicio-01.md)
+[3. Exercicios de Processos & Threads](https://boechat.github.io/estudo-si/estudo-so-exercicio-01)
 
-[4. Escalonamento](https://github.com/boechat/estudo-si/estudo-so-escalonamento.md)
+[4. Escalonamento](https://boechat.github.io/estudo-si/estudo-so-escalonamento)
 
-[5. Gerência de memória](https://github.com/boechat/estudo-si/estudo-so-gerencia-de-memoria.md)
+[5. Gerência de memória](https://boechat.github.io/estudo-si/estudo-so-gerencia-de-memoria)
 
 
