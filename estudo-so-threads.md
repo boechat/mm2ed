@@ -1,6 +1,8 @@
-## [Estudo] Sistemas Operacionais
+## [SISTEMAS DE INFORMAÇÃO](https://boechat.github.io/estudo-si)
+## [SISTEMAS OPERACIONAIS](https://boechat.github.io/estudo-si/estudo-so)
 
-## THREADS
+
+# THREADS
 
 São “processos leves”, Melhoram a eficiência de aplicações concorrentes.
 A comunicação entre as threads de um processo é mais simples e rápida que a comunicação entre processos.
