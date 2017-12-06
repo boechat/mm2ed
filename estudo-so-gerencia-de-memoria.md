@@ -7,9 +7,7 @@
 Implementada nos primeiros SOs:
 A memória é dividida entre duas áreas: **Programa do usuário & Sistema operacional**
 
-```markdown
-IMAGEM MP/SO 
-```
+![MP](https://boechat.github.io/estudo-si/so008.png)
 
 O usuário tem acesso à toda a memória principal. **Inclusive à área do S.O.!** 
 Para proteger a área do SO, alguns sistemas implementam um mecanismo de proteção básico composto por um registrador.
@@ -27,9 +25,7 @@ A área de memória principal para onde os módulos são trazidos é conhecida c
 O tamanho da área de overlay é o tamanho do maior módulo. 
 **Pode degradar o desempenho devido às transferências de áreas de memória.**
 
-```markdown
-IMAGEM OVERLAY
-```
+![Overlay](https://boechat.github.io/estudo-si/so009.png)
 
 ### Alocação Particionada - Estática
 
@@ -40,17 +36,14 @@ Um programa com código absoluto só pode ser carregado e executado a partir de 
 O processo de geração de código evolui para o código realocável. Nele os endereços são relativos ao início do código. Com isso, o programa pode ser carregado em qualquer partição que ele caiba.
 A essa gerência de memória deu-se o nome de alocação particionada estática relocável.
 
-```markdown
-IMAGEM ALOC PART ESTATICA
-```
+![Alocação Part. Estatica](https://boechat.github.io/estudo-si/so010.png)
 
 Neste tipo de gerência de memória, a proteção é implementada por dois registradores que armazenam o endereço início e o endereço fim da partição em que está o processo em execução. 
 Caso seja feito um acesso fora desses limites, o programa é interrompido.
 Também nessa  gerência, os programas não ocupam completamente as partições, gerando a **fragmentação interna.**
 
-```markdown
-IMAGEM ALOC PART ESTATICA-2
-```
+![Alocação Part. Estatica 2](https://boechat.github.io/estudo-si/so011.png)
+
 ### Alocação Particionada - Dinâmica
 
 Na alocação particionada dinâmica, as partições não tem tamanho fixo: O tamanho da partição é determinado pelo tamanho do programa,Assim, não existe fragmentação interna Porém, a medida que os processos terminam, pode ocorrer fragmentação externa.
@@ -59,11 +52,9 @@ Existem duas soluções para o problema da fragmentação externa:
 > A medida que os processos terminem, áreas livres adjacentes são concatenadas.
 > As áreas são todas agrupadas  -Necessita que seja possível fazer a realocação dinâmica dos programas.
  ```
+![Alocação Part. Dinamica](https://boechat.github.io/estudo-si/so012.png)
 
-```markdown
-IMAGEM ALOC PART DINAMICA
-```
-ESTRATÉGIAS DE ALOCAÇÂO
+#### ESTRATÉGIAS DE ALOCAÇÂO
 
 Como determinar qual área de memória utilizar para alocar a um processo? Existem 3 estratégias: 
 ```markdown
@@ -88,9 +79,7 @@ A escolha de qual processo deve sofrer swap out deve ser feita de forma a escolh
 É necessário a realocação dinâmica ; Para tal é necessário um registrador de relocação.
 O registrador de relocação recebe o valor da posição inicial do processo, A cada acesso à memória o endereço é somado ao registrador de relocação.
 
-```markdown
-IMAGEM REGISTRADOR ALOC + INSTR
-```
+![Registrador + Instrução](https://boechat.github.io/estudo-si/so013.png)
 
 ### MEMÓRIA VIRTUAL
 
@@ -106,17 +95,16 @@ O espaço de endereçamento virtual pode conter endereços cujos conteúdos não
 
 Realiza a tradução do endereço virtual para endereço físico. É realizado por um hardware chamado MMU (Memory Management Unit) que é configurado pelo SO. Cada processo possui uma configuração própria para a MMU chamada tabela de mapeamento .A escolha de qual tabela de mapeamento utilizar é feita através de um registrador da MMU.
 Se as tabelas mapeassem cada célula de memória, o seusamanho seria tão grande quanto a própria memória .Assim, o mapeamento é feito por blocos de memória. Quanto maior o bloco, menor a tabela
-```markdown
-IMAGEM TABELA
-```
+
+![Tabela](https://boechat.github.io/estudo-si/so014.png)
 
 ### PAGINAÇÃO
 
 É a técnica de memória virtual onde os blocos de memória tem tamanho fixo e são chamados de **páginas.**
 O mapeamento é feito através de tabelas de páginas. Cada página virtual possui uma entrada na tabela de páginas (ETP).
-```markdown
-IMAGEM TABELA DE PAGINAS
-``` 
+
+![Tabela de Páginas](https://boechat.github.io/estudo-si/so015.png)
+
 Quando um programa é executado, as páginas são trazidas da memória secundária para as páginas da memória física, conhecidas como frames.
 A cada acesso à memória, a ETP correspondente é acessada para indicar o frame.
 Nessa técnica, o endereço virtual é formado pelo número da página virtual (NPV) e pelo deslocamento dentro da página.
