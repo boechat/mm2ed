@@ -9,9 +9,9 @@ Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para 
 
 ```markdown
 
-[1. Processos](http://github.com)
-[2. Threads](http://github.com)
-[3. Exercicios de Processos & Threads](http://github.com)
-[4. Escalonamento](http://github.com)
-[5. Gerência de memória](estudo-si/estudo-so-exercicio-01.md)
-
+[1. Processos](https://github.com/boechat/estudo-si/estudo-so-processo.md))
+[2. Threads](https://github.com/boechat/estudo-si/estudo-so-threads.md))
+[3. Exercicios de Processos & Threads](https://github.com/boechat/estudo-si/estudo-so-exercicio-01.md))
+[4. Escalonamento](https://github.com/boechat/estudo-si/estudo-so-escalonamento.md)
+[5. Gerência de memória](https://github.com/boechat/estudo-si/estudo-so-gerencia-de-memoria.md)
+```
