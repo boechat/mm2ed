@@ -15,3 +15,4 @@ Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para 
 [4. Escalonamento](https://github.com/boechat/estudo-si/estudo-so-escalonamento.md)
 [5. Gerência de memória](https://github.com/boechat/estudo-si/estudo-so-gerencia-de-memoria.md)
 ```
+
