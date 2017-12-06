@@ -115,7 +115,7 @@ O processo fica esperando pela ocorrência de um evento
 Quando o evento que o processo estava aguardando acontece (e.g. término da operação de E/S solicitada)  Não existe a transição Wait ⇒ Running
 Running ⇒ Ready (d)  Quando o processo é interrompido pelo SO (e.g. término do timeslice)
 
-###8. Criação e Eliminação de Processos
+### 8. Criação e Eliminação de Processos
 Um processo é criado no momento em que o SO cria o seu PCB e o insere nas estruturas internas do SO  A partir de então, o processo pode ser gerenciado.  
 Analogamente, um processo é eliminado quando seus recursos são liberados e seu PCB é eliminado.  
 
