@@ -1,6 +1,6 @@
-## [Estudo] Sistemas De Informação
+## [Estudo - SISTEMAS DE INFORMAÇÃO](https://boechat.github.io/estudo-si)
 
-## SISTEMAS OPERACIONAIS
+## [SISTEMAS OPERACIONAIS](https://boechat.github.io/estudo-si/estudo-so)
 
 Esta página irá auxiliar os estudantes interessados em aprimorar seu conhecimento e exercitar para o curso de Sistemas Operacionais. 
 Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para deixar este projeto o mais completo possível.
