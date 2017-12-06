@@ -1,8 +1,8 @@
-           ## [SISTEMAS DE INFORMAÇÃO](https://boechat.github.io/estudo-si)
-            ## [SISTEMAS OPERACIONAIS](https://boechat.github.io/estudo-si/estudo-so)
+## [SISTEMAS DE INFORMAÇÃO](https://boechat.github.io/estudo-si)
+## [SISTEMAS OPERACIONAIS](https://boechat.github.io/estudo-si/estudo-so)
   
 
-## ESCALONAMENTO
+# ESCALONAMENTO
 
 ### Políticas de Escalonamento 
 São os critérios adotados para a seleção de qual processo no estado **pronto(ready)** será escolhido para utilizar o processador **(running)**.  
