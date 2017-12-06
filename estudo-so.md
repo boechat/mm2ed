@@ -1,8 +1,6 @@
 ## [SISTEMAS DE INFORMAÇÃO](https://boechat.github.io/estudo-si)
 
-
-
-## [SISTEMAS OPERACIONAIS](https://boechat.github.io/estudo-si/estudo-so)
+# [SISTEMAS OPERACIONAIS](https://boechat.github.io/estudo-si/estudo-so)
 
 
 
