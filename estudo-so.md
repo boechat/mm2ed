@@ -7,8 +7,6 @@ Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para 
 
 ### Sumário
 
-```markdow
-
 [1. Processos](https://github.com/boechat/estudo-si/estudo-so-processo.md)
 
 [2. Threads](https://github.com/boechat/estudo-si/estudo-so-threads.md)
