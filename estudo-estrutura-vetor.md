@@ -3,13 +3,13 @@
   
 # VETORES : Uma breve revisão
 
-Definição: Vetor é uma estrutura de dados definidos num conjunto enumerado.
+**Definição:** Vetor é uma estrutura de dados definidos num conjunto enumerado.
 
 Vetores|
 -----------------|
-int v[10];
-int v[2] = [0,1]
-int v[] = [0,1]
+int v[10]; |
+int v[2] = [0,1] |
+int v[] = [0,1] |
 
 O acesso é feito com um indice **(i)**, iniciando por 0.
 
@@ -19,7 +19,7 @@ Sendo assim, num vetor de 10 inteiros você está reservando 10 vezes valores in
 Como o vetor nada mais é do que um **PONTEIRO**, caso você peça para o programa imprimir o “v” (de int v [ 10] ), ele imprimirá apenas o endereço de memória de v.
 
 Podemos escrever então:
-```markdown
+```c
 *(v + i)  ou v [ i ]
 --------------------      
 &v [ i ] ou  (v + i)
