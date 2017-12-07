@@ -61,7 +61,42 @@ Após isso, ela irá executar: n ==1, então retorna elemento v[0] para o termo
 seguinte. (v[0]) x> v[1] ? se sim, retorna v[0] pro proximo nível. do contrário,
 será retornado v[1]. Isso se segue até achar o maior elemento do vetor.
 ```
-### LINKS Úteis
+
+## QUESTÕES:
+### FR1) Crie uma função recursiva que receba como parâmetro um vetor INT V e o número N de elementos desse vetor. A função deve retornar o produto de todos os elementos do vetor.
+
+```c
+Int PROD (int v[ ], int n);
+{
+if (n<1)
+	return 1;
+else
+return v [ n-1] * prod (v, n-1);
+}
+```
+
+### FR2) Crie uma função recursiva que receba como parâmetro INT N , sendo um número maior/igual 1 e retorne o número correspondente à fibonacci.
+
+```markdown
+Se considerarmos Fibonacci como uma sequência de números demonstrada por
+	             1,1,2,3,5,8,13,... Elementos
+        ordem  1,2,3,4,5,6,7,.....Elementos
+
+Podemos inferir que Fib (N) = 1, quando N é de ordem menor/igual a 2.
+Escrevendo assim a equação de Fibonacci como:
+Fib (Elementos) = Fib ( Elementos- 1) + Fib (Elementos - 2)
+```
+```c
+int fib( int N)
+	{ 
+if (n <= 2 )
+		return 1; 
+else
+return fib (n-1) + Fib (n-2)
+}
+```
+
+## LINKS Úteis
 
 [Lista de Exercicios de Recursividade 1 - USP](http://www.ime.usp.br/~pf/algoritmos/aulas/recu.html)
 
