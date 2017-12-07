@@ -5,15 +5,15 @@ Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para 
 
 ## Sumário
 ### [1. SISTEMAS OPERACIONAIS](https://boechat.github.io/estudo-si/estudo-so)
-2. Programação 1
-3. Programação 2
+### 2. Programação 1
+### 3. Programação 2
 ### [4. Estrutura de Dados 1](https://boechat.github.io/estudo-si/estudo-estrutura)
-5. Estrutura de Dados 2
-6. Cálculo
-7. Banco de Dados 1
-8. Banco de Dados 2
-9. Análise de Sistemas 1
-10. Análise de Sistemas 2
+### 5. Estrutura de Dados 2
+### 6. Cálculo
+### 7. Banco de Dados 1
+### 8. Banco de Dados 2
+### 9. Análise de Sistemas 1
+### 10. Análise de Sistemas 2
 
 
 
