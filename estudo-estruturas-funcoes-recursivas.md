@@ -50,14 +50,21 @@ int maximoRec (int n, int v[ ] )
 ```
 Passo a passo:
 ```
-// caso n seja igual a 1, retorna o elemento do primeiro indice (v[0] ) 
+caso n seja igual a 1, retorna o elemento do primeiro indice (v[0] ) 
 
-//Do contrario, chama a função maximoRec novamente, utilizando a variavel ‘x’ 
-  // x é o máximo de v[0..n-2]         (N = numero de elementos)
-  // Digamos que o tamanho do vetor seja 5. (N=5). Logo, x vai inicialmente
-  // chamar a função maximoRec (4,v). Como a função foi chamada novamente,
-  //  ela vai continuar se chamando ((3,v), (2,V)) até n ser igual a 1 ( 1,V)
-  // Após isso, ela irá executar: n ==1, então retorna elemento v[0] para o termo
-  //seguinte. (v[0]) x> v[1] ? se sim, retorna v[0] pro proximo nível. do contrário,
-  //será retornado v[1]. Isso se segue até achar o maior elemento do vetor.
+Do contrario, chama a função maximoRec novamente, utilizando a variavel ‘x’ 
+x é o máximo de v[0..n-2]         (N = numero de elementos)
+Digamos que o tamanho do vetor seja 5. (N=5). Logo, x vai inicialmente
+chamar a função maximoRec (4,v). Como a função foi chamada novamente,
+ela vai continuar se chamando ((3,v), (2,V)) até n ser igual a 1 ( 1,V)
+Após isso, ela irá executar: n ==1, então retorna elemento v[0] para o termo
+seguinte. (v[0]) x> v[1] ? se sim, retorna v[0] pro proximo nível. do contrário,
+será retornado v[1]. Isso se segue até achar o maior elemento do vetor.
 ```
+### LINKS Úteis
+
+[Lista de Exercicios de Recursividade 1 - USP](http://www.ime.usp.br/~pf/algoritmos/aulas/recu.html)
+
+[Lista de Exercicios de Recursividade 2 - USP](http://wiki.icmc.usp.br/images/d/d0/Icc2_lista2.pdf)
+### VIDEO
+[Vídeo do canal Me Salva! Sobre Recursividade](https://www.youtube.com/watch?v=kS_VJYWeqIQ)
