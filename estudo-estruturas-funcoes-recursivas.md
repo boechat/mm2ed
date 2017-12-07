@@ -65,6 +65,7 @@ será retornado v[1]. Isso se segue até achar o maior elemento do vetor.
 ## QUESTÕES:
 ### FR1) Crie uma função recursiva que receba como parâmetro um vetor INT V e o número N de elementos desse vetor. A função deve retornar o produto de todos os elementos do vetor.
 
+Resolução:
 ```c
 Int PROD (int v[ ], int n);
 {
@@ -86,6 +87,8 @@ Podemos inferir que Fib (N) = 1, quando N é de ordem menor/igual a 2.
 Escrevendo assim a equação de Fibonacci como:
 Fib (Elementos) = Fib ( Elementos- 1) + Fib (Elementos - 2)
 ```
+
+Resolução:
 ```c
 int fib( int N)
 	{ 
@@ -93,6 +96,18 @@ if (n <= 2 )
 		return 1; 
 else
 return fib (n-1) + Fib (n-2)
+}
+```
+### FR3) A função Fatorial é determinada comumente como F(n!). Faça uma função em C que calcule o fatorial de um número inteiro. 
+					** n! = n*(n-1)! **
+Resolução:
+```c
+int fat ( int n)
+{
+if (n == 0) 
+		return 1;
+else
+		return fat ( n-1 ) * n
 }
 ```
 
