@@ -4,7 +4,7 @@ Seja bem vindo! Esta página irá auxiliar os estudantes interessados em aprimor
 Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para deixar este projeto o mais completo possível.
 
 ## Sumário
-### [1. SISTEMAS OPERACIONAIS](https://boechat.github.io/estudo-si/estudo-so)
+### [1. Sistemas Operacionais](https://boechat.github.io/estudo-si/estudo-so)
 ### 2. Programação 1
 ### 3. Programação 2
 ### [4. Estrutura de Dados 1](https://boechat.github.io/estudo-si/estudo-estrutura)
