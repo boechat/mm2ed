@@ -9,9 +9,9 @@ Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para 
 
 ### Sumário
 
-[1. Revisão Vetores](https://boechat.github.io/estudo-si/estudo-so-processo)
+[1. Revisão Vetores](https://boechat.github.io/estudo-si/estudo-estrutura-vetor)
 
-[2. Funções Recursivas](https://boechat.github.io/estudo-si/estudo-so-threads)
+[2. Funções Recursivas](https://boechat.github.io/estudo-si/estudo-estruturas-funcoes-recursivas)
 
 [3. Métodos de Busca, Alocação Dinâmica, Vetores e Matrizes Dinâmicas](https://boechat.github.io/estudo-si/estudo-so-exercicio-01)
 
