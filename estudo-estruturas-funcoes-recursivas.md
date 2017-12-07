@@ -99,7 +99,11 @@ return fib (n-1) + Fib (n-2)
 }
 ```
 ### FR3) A função Fatorial é determinada comumente como F(n!). Faça uma função em C que calcule o fatorial de um número inteiro. 
-					** n! = n*(n-1)! **
+
+```markdown 
+n! = n*(n-1)!
+```` 
+
 Resolução:
 ```c
 int fat ( int n)
