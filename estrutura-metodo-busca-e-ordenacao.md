@@ -40,8 +40,109 @@ Deve-se usar uma variavel de controle.
 
 Definição: O Insertion Sort começa a trabalhar com o segundo valor do vetor e vai jogando ele para a esquerda (início do vetor). Ele percorre todo o vetor uma única vez, porém para fazer o movimento descrito (jogar para o início) ele utiliza-se de outro laço interno.
 
-[[IMAGE - estrutura001]]
+![Insertion Sort-001](https://boechat.github.io/estudo-si/estrutura001.png)
+
+Exemplos:
+```c
+void insertionSort(int vetorDesordenado[], int n )
+{
+   int i, j, auxiliar;
+   for( j=1; j < n; j++ ) 
+   {
+     auxiliar = vetorDesordenado[j];
+       i = j-1;
+            while(i >= 0 && vetorDesordenado[i] > auxiliar)
+             {				
+                vetorDesordenado[i+1] = vetorDesordenado[i]; 
+                  i--;
+             }
+             vetorDesordenado[i+1] = auxiliar; 
+   }
+ }
+```
 
 
+# MÉTODO DE BUSCA
+## SELECTION SORT (seleção)
+
+Definição: Baseado em se passar sempre o menor valor do vetor para a primeira posição (ou o maior dependendo da ordem requerida), depois o de segundo menor valor para a segunda posição, e assim é feito sucessivamente com os n-1 elementos restantes, até os últimos dois elementos.
+
+Exemplo:
+```c
+void selection_sort(int num[], int tam) 			
+{   int i, j, min, aux;					
+  for (i = 0; i < (tam-1); i++) 				
+     min = i;					
+	     for (j = (i+1); j < tam; j++)	
+ {       if(num[j] < num[min]) 		
+         min = j;    }
+     if (i != min) {				
+       aux = num[i];				
+       num[i] = num[min];			
+       num[min] = aux;     } 
+      }
+ }			
+```
+
+# MATRIZ DINÂMICA
+
+Definição: C não permite alocação dinâmica de conjuntos bidimensionais. Logo, é necessário que você transforme a matriz em um conjunto unidimensional (Vetor) para poder alocar dados dinamicamente.
+Como a matriz é comumente representada por matriz = [i][j] , ao transformar em vetor teremos a fórmula :
+
+```c
+M = i * n + j
+
+onde “i” é o indice de linha, “n” é a posição e “j” a coluna 
+```
+![Matriz Dinamica](https://boechat.github.io/estudo-si/estrutura002.png)
+
+### Declarando uma Matriz dinâmica:###
+
+```c
+Tendo como exemplo: 
+		 mat[ i ][ j ] 
+         mapeado em v[ i * n + j ] 
+...
+
+float *mat;				 /* matriz m x n representada por um vetor */
+...
+
+mat = (float*) malloc(m*n*sizeof(float));       /* onde m = qtd.linha e n= qtd.coluna */
+
+```
+## Exemplo
+
+Em matemática, matriz transposta é a matriz que se obtém da troca de linhas por colunas de uma dada matriz. Sabendo disso, desenvolva uma função que pegue uma matriz e retorna a sua transposta.
+```c
+/* Solução 1: matriz alocada como vetor simples */
 
 
+float* transposta (int m, int n, float* mat)		/função recebe tam.linha e de coluna e o vetor/
+{	 int i, j;
+  	float* trp;				/declara um vetor (ponteiro)/
+trp = (float*) malloc(n*m*sizeof(float));       /* aloca matriz transposta com n linhas e m colunas */
+for (i=0; i<m; i++)			 /* preenche matriz */
+for (j=0; j<n; j++)
+trp[ j*m+i ] = mat[ i*n+j ];   
+return trp;
+}
+```
+```c
+/* Solução 2: matriz alocada como vetor de ponteiros */
+
+
+float** transposta (int m, int n, float** mat)
+{
+int i, j;
+float** trp;
+trp = (float**) malloc(n*sizeof(float*));	/* aloca matriz transposta com n linhas e m colunas */
+for (i=0; i<n; i++)
+trp[i] = (float*) malloc(m*sizeof(float));
+
+for (i=0; i<m; i++)					/*após alocar, preenche matriz */
+for (j=0; j<n; j++)
+trp[ j ] [ i ] = mat[ i ][ j ];
+return trp;
+}
+
+```
