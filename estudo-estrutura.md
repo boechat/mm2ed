@@ -13,6 +13,6 @@ Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para 
 
 [2. Funções Recursivas](https://boechat.github.io/estudo-si/estudo-estruturas-funcoes-recursivas)
 
-[3. Métodos de Busca, Alocação Dinâmica, Vetores e Matrizes Dinâmicas](https://boechat.github.io/estudo-si/estudo-so-exercicio-01)
+[3. Métodos de Busca, Alocação Dinâmica, Vetores e Matrizes Dinâmicas](https://boechat.github.io/estudo-si/estudo-estrutura-metodo-busca-e-ordenacao.md)
 
 [4. Lista Encadeada](https://boechat.github.io/estudo-si/estudo-so-escalonamento)
