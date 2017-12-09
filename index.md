@@ -8,7 +8,7 @@ Lidaremos aqui com um projeto em grupo, onde cada um poderá dar um commit para 
 ### 2. Programação 1
 ### 3. Programação 2
 ### [4. Estrutura de Dados 1](https://boechat.github.io/estudo-si/estudo-estrutura)
-### 5. Estrutura de Dados 2
+### [5. Estrutura de Dados 2](https://boechat.github.io/estudo-si/estudo-estrutura-2)
 ### 6. Cálculo
 ### 7. Banco de Dados 1
 ### 8. Banco de Dados 2
