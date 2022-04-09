@@ -3,7 +3,7 @@
 # Sumário
 
 - [Wikia de Diamond City Heroes](https://diamond-city-heroes.fandom.com/pt-br/wiki/Diamond_City_Heroes_Wiki)
-- [[Condições de Batalha]](https://boechat.github.io/mm2ed/condicao)
+- [Condições de Batalha](https://boechat.github.io/mm2ed/condicao.md)
 
 /*
 ### Markdown
